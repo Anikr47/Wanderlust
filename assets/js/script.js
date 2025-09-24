@@ -3,6 +3,9 @@
 /**
  * navbar toggle
  */
+  window.onload = function() {
+      alert("Head to book now in order to start with your booking!");
+    };
 
 const overlay = document.querySelector("[data-overlay]");
 const navOpenBtn = document.querySelector("[data-nav-open-btn]");
